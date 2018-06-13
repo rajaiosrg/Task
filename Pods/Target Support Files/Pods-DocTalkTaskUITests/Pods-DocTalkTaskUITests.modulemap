@@ -1,0 +1,6 @@
+framework module Pods_DocTalkTaskUITests {
+  umbrella header "Pods-DocTalkTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

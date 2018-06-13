@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E10C37716C7A3D90207A0 /* Pods_DocTalkTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E54E87E8286F726ED9F2312 /* Pods_DocTalkTaskTests.framework */; };
+		1E66E70AA95C989E3B35BAC7 /* Pods_DocTalkTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE489A3BCE05D565FE13D2D4 /* Pods_DocTalkTask.framework */; };
+		681E2399E04303F18DE5BBC1 /* Pods_DocTalkTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C6ECAC22D980E12AD86545 /* Pods_DocTalkTaskUITests.framework */; };
+		69B84D0920D0D7E900AD4077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D0820D0D7E900AD4077 /* AppDelegate.swift */; };
+		69B84D0B20D0D7E900AD4077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D0A20D0D7E900AD4077 /* ViewController.swift */; };
+		69B84D0E20D0D7E900AD4077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D0C20D0D7E900AD4077 /* Main.storyboard */; };
+		69B84D1020D0D7EA00AD4077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D0F20D0D7EA00AD4077 /* Assets.xcassets */; };
+		69B84D1320D0D7EA00AD4077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D1120D0D7EA00AD4077 /* LaunchScreen.storyboard */; };
+		69B84D1E20D0D7EA00AD4077 /* DocTalkTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D1D20D0D7EA00AD4077 /* DocTalkTaskTests.swift */; };
+		69B84D2920D0D7EA00AD4077 /* DocTalkTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D2820D0D7EA00AD4077 /* DocTalkTaskUITests.swift */; };
+		69B84D3720D0DC0700AD4077 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D3620D0DC0700AD4077 /* UserTableViewCell.swift */; };
+		69B84D3920D0DD8600AD4077 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D3820D0DD8600AD4077 /* User.swift */; };
+		69B84D3B20D0DEA600AD4077 /* UserAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D3A20D0DEA600AD4077 /* UserAPIRequest.swift */; };
+		69B84D3D20D0DEDB00AD4077 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D3C20D0DEDB00AD4077 /* APIRequest.swift */; };
+		69B84D3F20D0DF6D00AD4077 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D3E20D0DF6D00AD4077 /* APIManager.swift */; };
+		69B84D4520D1105600AD4077 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D4420D1105600AD4077 /* UserViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B84D1A20D0D7EA00AD4077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B84CFD20D0D7E900AD4077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B84D0420D0D7E900AD4077;
+			remoteInfo = DocTalkTask;
+		};
+		69B84D2520D0D7EA00AD4077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B84CFD20D0D7E900AD4077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B84D0420D0D7E900AD4077;
+			remoteInfo = DocTalkTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8BED0783FEEDDAF3863F6B /* Pods-DocTalkTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocTalkTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocTalkTaskTests/Pods-DocTalkTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E54E87E8286F726ED9F2312 /* Pods_DocTalkTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocTalkTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1A8E306744145B6F2085CA /* Pods-DocTalkTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocTalkTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocTalkTask/Pods-DocTalkTask.release.xcconfig"; sourceTree = "<group>"; };
+		69B84D0520D0D7E900AD4077 /* DocTalkTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocTalkTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B84D0820D0D7E900AD4077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69B84D0A20D0D7E900AD4077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69B84D0D20D0D7E900AD4077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69B84D0F20D0D7EA00AD4077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69B84D1220D0D7EA00AD4077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69B84D1420D0D7EA00AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B84D1920D0D7EA00AD4077 /* DocTalkTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocTalkTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B84D1D20D0D7EA00AD4077 /* DocTalkTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTalkTaskTests.swift; sourceTree = "<group>"; };
+		69B84D1F20D0D7EA00AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B84D2420D0D7EA00AD4077 /* DocTalkTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocTalkTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B84D2820D0D7EA00AD4077 /* DocTalkTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTalkTaskUITests.swift; sourceTree = "<group>"; };
+		69B84D2A20D0D7EA00AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B84D3620D0DC0700AD4077 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		69B84D3820D0DD8600AD4077 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		69B84D3A20D0DEA600AD4077 /* UserAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIRequest.swift; sourceTree = "<group>"; };
+		69B84D3C20D0DEDB00AD4077 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		69B84D3E20D0DF6D00AD4077 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		69B84D4420D1105600AD4077 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9BDCD9D9056558CC64F82097 /* Pods-DocTalkTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocTalkTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocTalkTaskUITests/Pods-DocTalkTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C6ECAC22D980E12AD86545 /* Pods_DocTalkTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocTalkTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE489A3BCE05D565FE13D2D4 /* Pods_DocTalkTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocTalkTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B908A66CC4B37D849516B9 /* Pods-DocTalkTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocTalkTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocTalkTaskUITests/Pods-DocTalkTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C631A98EF7EC2D13B7D806C5 /* Pods-DocTalkTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocTalkTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocTalkTask/Pods-DocTalkTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E90067898C0B5730AF8FAD3B /* Pods-DocTalkTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocTalkTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocTalkTaskTests/Pods-DocTalkTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B84D0220D0D7E900AD4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E66E70AA95C989E3B35BAC7 /* Pods_DocTalkTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D1620D0D7EA00AD4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E10C37716C7A3D90207A0 /* Pods_DocTalkTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D2120D0D7EA00AD4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E2399E04303F18DE5BBC1 /* Pods_DocTalkTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A447B2506F21C2D331E64DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C631A98EF7EC2D13B7D806C5 /* Pods-DocTalkTask.debug.xcconfig */,
+				5D1A8E306744145B6F2085CA /* Pods-DocTalkTask.release.xcconfig */,
+				1D8BED0783FEEDDAF3863F6B /* Pods-DocTalkTaskTests.debug.xcconfig */,
+				E90067898C0B5730AF8FAD3B /* Pods-DocTalkTaskTests.release.xcconfig */,
+				9BDCD9D9056558CC64F82097 /* Pods-DocTalkTaskUITests.debug.xcconfig */,
+				C5B908A66CC4B37D849516B9 /* Pods-DocTalkTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69B84CFC20D0D7E900AD4077 = {
+			isa = PBXGroup;
+			children = (
+				69B84D0720D0D7E900AD4077 /* DocTalkTask */,
+				69B84D1C20D0D7EA00AD4077 /* DocTalkTaskTests */,
+				69B84D2720D0D7EA00AD4077 /* DocTalkTaskUITests */,
+				69B84D0620D0D7E900AD4077 /* Products */,
+				2A447B2506F21C2D331E64DF /* Pods */,
+				A54924898D900D6C00E12900 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69B84D0620D0D7E900AD4077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D0520D0D7E900AD4077 /* DocTalkTask.app */,
+				69B84D1920D0D7EA00AD4077 /* DocTalkTaskTests.xctest */,
+				69B84D2420D0D7EA00AD4077 /* DocTalkTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B84D0720D0D7E900AD4077 /* DocTalkTask */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D0820D0D7E900AD4077 /* AppDelegate.swift */,
+				69B84D0A20D0D7E900AD4077 /* ViewController.swift */,
+				69B84D3620D0DC0700AD4077 /* UserTableViewCell.swift */,
+				69B84D4420D1105600AD4077 /* UserViewModel.swift */,
+				69B84D4320D104DB00AD4077 /* Models */,
+				69B84D4220D104D000AD4077 /* Network */,
+				69B84D0C20D0D7E900AD4077 /* Main.storyboard */,
+				69B84D0F20D0D7EA00AD4077 /* Assets.xcassets */,
+				69B84D1120D0D7EA00AD4077 /* LaunchScreen.storyboard */,
+				69B84D1420D0D7EA00AD4077 /* Info.plist */,
+			);
+			path = DocTalkTask;
+			sourceTree = "<group>";
+		};
+		69B84D1C20D0D7EA00AD4077 /* DocTalkTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D1D20D0D7EA00AD4077 /* DocTalkTaskTests.swift */,
+				69B84D1F20D0D7EA00AD4077 /* Info.plist */,
+			);
+			path = DocTalkTaskTests;
+			sourceTree = "<group>";
+		};
+		69B84D2720D0D7EA00AD4077 /* DocTalkTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D2820D0D7EA00AD4077 /* DocTalkTaskUITests.swift */,
+				69B84D2A20D0D7EA00AD4077 /* Info.plist */,
+			);
+			path = DocTalkTaskUITests;
+			sourceTree = "<group>";
+		};
+		69B84D4220D104D000AD4077 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D3A20D0DEA600AD4077 /* UserAPIRequest.swift */,
+				69B84D3C20D0DEDB00AD4077 /* APIRequest.swift */,
+				69B84D3E20D0DF6D00AD4077 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		69B84D4320D104DB00AD4077 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D3820D0DD8600AD4077 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A54924898D900D6C00E12900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE489A3BCE05D565FE13D2D4 /* Pods_DocTalkTask.framework */,
+				4E54E87E8286F726ED9F2312 /* Pods_DocTalkTaskTests.framework */,
+				A2C6ECAC22D980E12AD86545 /* Pods_DocTalkTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B84D0420D0D7E900AD4077 /* DocTalkTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84D2D20D0D7EA00AD4077 /* Build configuration list for PBXNativeTarget "DocTalkTask" */;
+			buildPhases = (
+				5DE00123E5A929AA32B11ED4 /* [CP] Check Pods Manifest.lock */,
+				69B84D0120D0D7E900AD4077 /* Sources */,
+				69B84D0220D0D7E900AD4077 /* Frameworks */,
+				69B84D0320D0D7E900AD4077 /* Resources */,
+				F0AB3D6AF014442D79A6C43F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocTalkTask;
+			productName = DocTalkTask;
+			productReference = 69B84D0520D0D7E900AD4077 /* DocTalkTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B84D1820D0D7EA00AD4077 /* DocTalkTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84D3020D0D7EA00AD4077 /* Build configuration list for PBXNativeTarget "DocTalkTaskTests" */;
+			buildPhases = (
+				114C3443CA9B860B6410526C /* [CP] Check Pods Manifest.lock */,
+				69B84D1520D0D7EA00AD4077 /* Sources */,
+				69B84D1620D0D7EA00AD4077 /* Frameworks */,
+				69B84D1720D0D7EA00AD4077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B84D1B20D0D7EA00AD4077 /* PBXTargetDependency */,
+			);
+			name = DocTalkTaskTests;
+			productName = DocTalkTaskTests;
+			productReference = 69B84D1920D0D7EA00AD4077 /* DocTalkTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69B84D2320D0D7EA00AD4077 /* DocTalkTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84D3320D0D7EA00AD4077 /* Build configuration list for PBXNativeTarget "DocTalkTaskUITests" */;
+			buildPhases = (
+				CAE79F5F4D3CA460653D483C /* [CP] Check Pods Manifest.lock */,
+				69B84D2020D0D7EA00AD4077 /* Sources */,
+				69B84D2120D0D7EA00AD4077 /* Frameworks */,
+				69B84D2220D0D7EA00AD4077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B84D2620D0D7EA00AD4077 /* PBXTargetDependency */,
+			);
+			name = DocTalkTaskUITests;
+			productName = DocTalkTaskUITests;
+			productReference = 69B84D2420D0D7EA00AD4077 /* DocTalkTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B84CFD20D0D7E900AD4077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Raja Earla";
+				TargetAttributes = {
+					69B84D0420D0D7E900AD4077 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					69B84D1820D0D7EA00AD4077 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 69B84D0420D0D7E900AD4077;
+					};
+					69B84D2320D0D7EA00AD4077 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 69B84D0420D0D7E900AD4077;
+					};
+				};
+			};
+			buildConfigurationList = 69B84D0020D0D7E900AD4077 /* Build configuration list for PBXProject "DocTalkTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69B84CFC20D0D7E900AD4077;
+			productRefGroup = 69B84D0620D0D7E900AD4077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B84D0420D0D7E900AD4077 /* DocTalkTask */,
+				69B84D1820D0D7EA00AD4077 /* DocTalkTaskTests */,
+				69B84D2320D0D7EA00AD4077 /* DocTalkTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B84D0320D0D7E900AD4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84D1320D0D7EA00AD4077 /* LaunchScreen.storyboard in Resources */,
+				69B84D1020D0D7EA00AD4077 /* Assets.xcassets in Resources */,
+				69B84D0E20D0D7E900AD4077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D1720D0D7EA00AD4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D2220D0D7EA00AD4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114C3443CA9B860B6410526C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocTalkTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE00123E5A929AA32B11ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocTalkTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE79F5F4D3CA460653D483C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocTalkTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0AB3D6AF014442D79A6C43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DocTalkTask/Pods-DocTalkTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DocTalkTask/Pods-DocTalkTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B84D0120D0D7E900AD4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84D3920D0DD8600AD4077 /* User.swift in Sources */,
+				69B84D3B20D0DEA600AD4077 /* UserAPIRequest.swift in Sources */,
+				69B84D0B20D0D7E900AD4077 /* ViewController.swift in Sources */,
+				69B84D3720D0DC0700AD4077 /* UserTableViewCell.swift in Sources */,
+				69B84D3D20D0DEDB00AD4077 /* APIRequest.swift in Sources */,
+				69B84D0920D0D7E900AD4077 /* AppDelegate.swift in Sources */,
+				69B84D4520D1105600AD4077 /* UserViewModel.swift in Sources */,
+				69B84D3F20D0DF6D00AD4077 /* APIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D1520D0D7EA00AD4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84D1E20D0D7EA00AD4077 /* DocTalkTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D2020D0D7EA00AD4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84D2920D0D7EA00AD4077 /* DocTalkTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B84D1B20D0D7EA00AD4077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B84D0420D0D7E900AD4077 /* DocTalkTask */;
+			targetProxy = 69B84D1A20D0D7EA00AD4077 /* PBXContainerItemProxy */;
+		};
+		69B84D2620D0D7EA00AD4077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B84D0420D0D7E900AD4077 /* DocTalkTask */;
+			targetProxy = 69B84D2520D0D7EA00AD4077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B84D0C20D0D7E900AD4077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B84D0D20D0D7E900AD4077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69B84D1120D0D7EA00AD4077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B84D1220D0D7EA00AD4077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B84D2B20D0D7EA00AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69B84D2C20D0D7EA00AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B84D2E20D0D7EA00AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C631A98EF7EC2D13B7D806C5 /* Pods-DocTalkTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DocTalkTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doctalk.DocTalkTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69B84D2F20D0D7EA00AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1A8E306744145B6F2085CA /* Pods-DocTalkTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DocTalkTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doctalk.DocTalkTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69B84D3120D0D7EA00AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8BED0783FEEDDAF3863F6B /* Pods-DocTalkTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DocTalkTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doctalk.DocTalkTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocTalkTask.app/DocTalkTask";
+			};
+			name = Debug;
+		};
+		69B84D3220D0D7EA00AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90067898C0B5730AF8FAD3B /* Pods-DocTalkTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DocTalkTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doctalk.DocTalkTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocTalkTask.app/DocTalkTask";
+			};
+			name = Release;
+		};
+		69B84D3420D0D7EA00AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BDCD9D9056558CC64F82097 /* Pods-DocTalkTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DocTalkTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doctalk.DocTalkTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocTalkTask;
+			};
+			name = Debug;
+		};
+		69B84D3520D0D7EA00AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B908A66CC4B37D849516B9 /* Pods-DocTalkTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DocTalkTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doctalk.DocTalkTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocTalkTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B84D0020D0D7E900AD4077 /* Build configuration list for PBXProject "DocTalkTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84D2B20D0D7EA00AD4077 /* Debug */,
+				69B84D2C20D0D7EA00AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B84D2D20D0D7EA00AD4077 /* Build configuration list for PBXNativeTarget "DocTalkTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84D2E20D0D7EA00AD4077 /* Debug */,
+				69B84D2F20D0D7EA00AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B84D3020D0D7EA00AD4077 /* Build configuration list for PBXNativeTarget "DocTalkTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84D3120D0D7EA00AD4077 /* Debug */,
+				69B84D3220D0D7EA00AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B84D3320D0D7EA00AD4077 /* Build configuration list for PBXNativeTarget "DocTalkTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84D3420D0D7EA00AD4077 /* Debug */,
+				69B84D3520D0D7EA00AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B84CFD20D0D7E900AD4077 /* Project object */;
+}
